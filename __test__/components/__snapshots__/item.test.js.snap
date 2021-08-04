@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mount模式测试 Mount模式快照测试 1`] = `
+"<CommentItem list={{...}}>
+  <div>
+    <p>
+      评论1
+    </p>
+    <p>
+      评论2
+    </p>
+    <p>
+      评论3
+    </p>
+    <button className=\\"\\">
+      展开/收起
+    </button>
+  </div>
+</CommentItem>"
+`;
+
+exports[`render模式测试 render模式快照测试 1`] = `"<p>评论1</p><p>评论2</p><p>评论33</p><button class=\\"\\">展开/收起</button>"`;
+
+exports[`shallow模式测试 shallow模式快照测试 1`] = `
+"<div>
+  <p>
+    评论1
+  </p>
+  <p>
+    评论2
+  </p>
+  <p>
+    评论3
+  </p>
+  <button className=\\"\\">
+    展开/收起
+  </button>
+</div>"
+`;
